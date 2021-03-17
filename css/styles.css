@@ -67,3 +67,29 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+/* just some  styling*/
+body { 
+  text-align: center; 
+
+}
+
+.heart {
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+img{
+	width: 20px; 
+}
+p{
+	padding-top: 50px;
+	word-spacing: 5px;
+	font-weight: bolder;
+	font-family: cursive;
+
+}
